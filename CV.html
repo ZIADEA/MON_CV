@@ -1,0 +1,181 @@
+<!DOCTYPE.HTML>
+<html lang="fr">
+	<head>
+		<meta charset ="UTF-8">
+		<meta name = "vewport" content = "width = device-width , initial-scale=1.0">
+		<title> Mon CV en ligne </title>
+		<style>
+			body {
+				font-family : Arial, sans-serif;
+				line-height = 1.6 ;
+				margin : 0;
+				padding : 0 ;
+				background-color : #f4f4f4 ;
+			}
+		
+			.container{
+				width : 80%;
+				margin : 0 auto;
+				background : #fff ;
+				padding : 20px ;
+				box-shadow : 0 0 10px rgba(0,0,0,0.1) ;		
+			}
+			header {
+				text-align : center ;
+				padding-bottom : 20px ;
+			}
+			h1 {
+				color : #333 ;
+			}
+			.section-title {
+				color : #444 ;
+				font-size : 1.2em ;
+				margin-top: 20px ;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+			<h1>Mon CV </h1>
+			<p>Un aperçu de mon parcours professionnel et de mes compétences </p>
+			</header>
+			<!-- information personnel -->
+			<section>
+				<h2 class="section-itle"> Information personnelles </h2>
+				<img scr = "https://drive.google.com/file/d/1qqxIFQmK3C81In19OmvzhqfWBxBcquAh/view?usp=sharing " alt = "Photo de profil" style = "width : 150px; height : 150px ; border-radius:50% ; " >
+				<p><strong>Nom :</strong> DJERI-ALASSANI Oubénoupou </p>
+				<p><strong>Email :</strong>djeryala@gmail.com </p>
+				<p><strong>Téléphone :</strong> +212(0)625508821 </p>
+			</section>
+			<!-- Expérience professionnnelle  -->
+			<section>
+				<h2 class="section-itle"> Expérience professionnnelle </h2>
+				<ul>				
+					<li>
+						<strong>Stagiaire en informatique</strong> chez DIGISCIA (été 2023)
+						<p>Création de sites web de vente de produit pour des petites entreprises .</p>
+					</li>
+				</ul>
+			</section>
+			<!-- Formation  -->
+			<section>
+				<h2 class="section-itle"> Formation </h2>
+				<table border="1" cellpadding="10" cellspacing="0" >
+					<tr>
+						<th>Année</th>
+						<th>Diplôme</th>
+						<th>Établissement</th>
+					</tr>
+					<tr>
+						<td>2024</td>
+						<td>DEUST en Mathematique - Physique - Informatique</td>
+						<td>Faculté des sciences technique de béni mellal Université sultan moulay slimane</td>
+					</tr>
+					<tr>
+						<td>2022</td>
+						<td>Baccalauréat Scientifique serie D </td>
+						<td>Lycée Anne & albert </td>
+					</tr>
+				</table>
+			</section>
+			<!-- Compétences  -->
+			<section>
+				<h2 class="section-itle"> Compétences </h2>
+				<ul>
+					<li>HTML/CSS </li>
+					<li>Python </li>
+					<li>Gestion de bases de données (SQL) </li>
+					<li>Matlab </li>
+					<li>langage R </li>
+				</ul>
+			</section>
+			<!-- Centres d'intérêt  -->
+			<section>
+				<h2 class="section-itle"> Centres d'intérêt </h2>
+				<p> Musique ,<br> Voyage ,<br> Technologie ,<br> Cuisine <br>,Actualité <br></p>
+				
+			</section>
+			<!-- Ajout de style	-->
+			<style> 
+				.container { 
+					width : 80% ; 
+					margin : 0 auto; 
+					background : #fff ; 
+					padding : 20px ; 
+					box-shadow : 0 0 10px rgba(0, 0, 0, 0.1) ; 
+				} 
+				h1 { 
+					font-size : 2.5em; 
+					color : #333 ; 
+				} 
+				h2.section-title { 
+					font-size : 1.5em ; 
+					margin-top : 20px ; 
+					color : #444 ; 
+				} 
+				ul { 
+					list-style-type : square; 
+				} 
+			</style>
+			<p>  <a href="https://drive.google.com/file/d/1qqxIFQmK3C81In19OmvzhqfWBxBcquAh/view?usp=sharing" target="_blank"> Mon profil LinkedIn </a>  </p>
+			<!-- Formulaire de contact  -->
+			<section>
+				<h2 class="section-itle"> Contactez-moi </h2>
+				<form action = "/submit-form" method = "post">
+					<label for="name"> Nom : </label> <br>
+					<input type="text" id="name" name = "name" placeholder="Votre nom " required> <br><br> <!-- required permet de rendre le champ obligatoire avant l'envoi du formulaire  -->
+					
+					<label for="email"> Email : </label> <br>
+					<input type="email" id="email" name = "email" placeholder="Votre email " required> <br><br>
+					
+					<label for="message"> Message : </label> <br>
+					<textarea  id="message" name = "message" row="4" cols="50" placeholder="Votre message " required> </textarea> <br><br>
+					
+					<button type = "submit">Envoyer</button>
+				
+				</form>
+			</section>
+			<!-- ajout du style au formulaire	-->
+			<style> 
+				form { 
+					margin-top : 20px ; 
+					padding : 10px ; 
+					background-color : #f9f9f9 ; 
+					border : 1px solid #ddd ; 
+					border-radius : 5px ; 
+				} 
+				label { 
+					font-weight : bold ; 
+				} 
+				input, textarea {
+					 width : 100%  ; 
+					padding : 10px ; 
+					margin-top : 5px ; 
+					margin-bottom : 15px ; 
+					border : 1px solid #ccc ; 
+					border-radius : 3px ; 
+				} 
+				button { 
+					background-color : #5cb85c ; 
+					color : white ; 
+					padding : 10px 15px ; 
+					border : none ; 
+					border-radius : 3px ; 
+					cursor : pointer ; 
+				} 
+				button:hover { 
+				background-color : #4cae4c ; 
+				} 
+
+			</style>
+			
+		</div>
+	</body>
+	
+	<footer>
+	
+	</footer>
+
+
+</html>
